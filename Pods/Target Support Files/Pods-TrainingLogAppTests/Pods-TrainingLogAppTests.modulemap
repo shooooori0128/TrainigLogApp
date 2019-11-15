@@ -1,0 +1,6 @@
+framework module Pods_TrainingLogAppTests {
+  umbrella header "Pods-TrainingLogAppTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

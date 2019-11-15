@@ -1,0 +1,32 @@
+PODS:
+  - CalculateCalendarLogic (0.3.0)
+  - CSV.swift (2.4.2)
+  - FSCalendar (2.8.0)
+  - R.swift (5.1.0):
+    - R.swift.Library (~> 5.1.0)
+  - R.swift.Library (5.1.0)
+
+DEPENDENCIES:
+  - CalculateCalendarLogic
+  - CSV.swift (~> 2.4.2)
+  - FSCalendar
+  - R.swift
+
+SPEC REPOS:
+  trunk:
+    - CalculateCalendarLogic
+    - CSV.swift
+    - FSCalendar
+    - R.swift
+    - R.swift.Library
+
+SPEC CHECKSUMS:
+  CalculateCalendarLogic: cd5b2c706a8628bb924c5ee9d05c4f61bdbaf390
+  CSV.swift: 9670cc1b3e3f01e9eebb1aeb603b17b4459e7493
+  FSCalendar: 3a5ed3636e2ba1b83ebebfcf0c2603105a6f5efe
+  R.swift: 8cbc4fc69b740305b6a17c8a8ed968eb788962d9
+  R.swift.Library: fa85ce1e0d0b7e818cd9e080df910ba54d2776cc
+
+PODFILE CHECKSUM: 0e902928c1a9448bc67aa11ff811372408ceff99
+
+COCOAPODS: 1.8.4

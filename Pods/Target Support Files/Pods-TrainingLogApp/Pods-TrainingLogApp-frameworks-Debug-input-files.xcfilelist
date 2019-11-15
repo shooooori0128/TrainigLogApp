@@ -1,0 +1,5 @@
+${PODS_ROOT}/Target Support Files/Pods-TrainingLogApp/Pods-TrainingLogApp-frameworks.sh
+${BUILT_PRODUCTS_DIR}/CSV.swift/CSV.framework
+${BUILT_PRODUCTS_DIR}/CalculateCalendarLogic/CalculateCalendarLogic.framework
+${BUILT_PRODUCTS_DIR}/FSCalendar/FSCalendar.framework
+${BUILT_PRODUCTS_DIR}/R.swift.Library/Rswift.framework

@@ -1,0 +1,871 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5B18CA12F3ED513A762C378B /* Pods_TrainingLogApp_TrainingLogAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 448E670512A98E21281621EB /* Pods_TrainingLogApp_TrainingLogAppUITests.framework */; };
+		8863DBAF30A04F9D710BCB12 /* Pods_TrainingLogAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC67290DB90E8ADFD762357E /* Pods_TrainingLogAppTests.framework */; };
+		C20920AC237A390200AD4AEE /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = C20920AB237A390200AD4AEE /* R.generated.swift */; };
+		C2129E0823778B9F0086ECB2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2129E0723778B9F0086ECB2 /* AppDelegate.swift */; };
+		C2129E0A23778B9F0086ECB2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2129E0923778B9F0086ECB2 /* SceneDelegate.swift */; };
+		C2129E0C23778B9F0086ECB2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2129E0B23778B9F0086ECB2 /* ViewController.swift */; };
+		C2129E0F23778B9F0086ECB2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2129E0D23778B9F0086ECB2 /* Main.storyboard */; };
+		C2129E1123778BA50086ECB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2129E1023778BA50086ECB2 /* Assets.xcassets */; };
+		C2129E1423778BA50086ECB2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2129E1223778BA50086ECB2 /* LaunchScreen.storyboard */; };
+		C2129E1F23778BA50086ECB2 /* TrainingLogAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2129E1E23778BA50086ECB2 /* TrainingLogAppTests.swift */; };
+		C2129E2A23778BA50086ECB2 /* TrainingLogAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2129E2923778BA50086ECB2 /* TrainingLogAppUITests.swift */; };
+		C2129E3E237792570086ECB2 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = C2129E3D237792570086ECB2 /* .gitignore */; };
+		C2C260E0237C09E700B59033 /* AlertUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C260DF237C09E700B59033 /* AlertUIView.swift */; };
+		C2D95724237A3E3F00845F61 /* CalenderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D95723237A3E3F00845F61 /* CalenderViewController.swift */; };
+		C2D95728237A3EBD00845F61 /* TrainingLogApp-Bridge-Header.m in Sources */ = {isa = PBXBuildFile; fileRef = C2D95727237A3EBD00845F61 /* TrainingLogApp-Bridge-Header.m */; };
+		F3BA61D3727320829AB19D1D /* Pods_TrainingLogApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5074C8CFE5DBC52877364A7 /* Pods_TrainingLogApp.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C2129E1B23778BA50086ECB2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C2129DFC23778B9F0086ECB2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C2129E0323778B9F0086ECB2;
+			remoteInfo = TrainingLogApp;
+		};
+		C2129E2623778BA50086ECB2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C2129DFC23778B9F0086ECB2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C2129E0323778B9F0086ECB2;
+			remoteInfo = TrainingLogApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C2F692F5237EF6B0005E2DB1 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0B10FD2F66F6B5728A80B71F /* Pods-TrainingLogApp-TrainingLogAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrainingLogApp-TrainingLogAppUITests.release.xcconfig"; path = "Target Support Files/Pods-TrainingLogApp-TrainingLogAppUITests/Pods-TrainingLogApp-TrainingLogAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		448E670512A98E21281621EB /* Pods_TrainingLogApp_TrainingLogAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TrainingLogApp_TrainingLogAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A44E3BFC7A1D7835F445154 /* Pods-TrainingLogApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrainingLogApp.release.xcconfig"; path = "Target Support Files/Pods-TrainingLogApp/Pods-TrainingLogApp.release.xcconfig"; sourceTree = "<group>"; };
+		68E90A4747AD60AF9D1D56B3 /* Pods-TrainingLogApp-TrainingLogAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrainingLogApp-TrainingLogAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-TrainingLogApp-TrainingLogAppUITests/Pods-TrainingLogApp-TrainingLogAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B3745B093442E1C521FD2800 /* Pods-TrainingLogAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrainingLogAppTests.release.xcconfig"; path = "Target Support Files/Pods-TrainingLogAppTests/Pods-TrainingLogAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		BE834F154CFE7AFF1BE09534 /* Pods-TrainingLogApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrainingLogApp.debug.xcconfig"; path = "Target Support Files/Pods-TrainingLogApp/Pods-TrainingLogApp.debug.xcconfig"; sourceTree = "<group>"; };
+		C20920AB237A390200AD4AEE /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = "<group>"; };
+		C2129E0423778B9F0086ECB2 /* TrainingLogApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrainingLogApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2129E0723778B9F0086ECB2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C2129E0923778B9F0086ECB2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C2129E0B23778B9F0086ECB2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C2129E0E23778B9F0086ECB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C2129E1023778BA50086ECB2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C2129E1323778BA50086ECB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C2129E1523778BA50086ECB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2129E1A23778BA50086ECB2 /* TrainingLogAppTests */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = TrainingLogAppTests; path = TrainingLogAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2129E1E23778BA50086ECB2 /* TrainingLogAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingLogAppTests.swift; sourceTree = "<group>"; };
+		C2129E2023778BA50086ECB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2129E2523778BA50086ECB2 /* TrainingLogAppUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = TrainingLogAppUITests; path = TrainingLogAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2129E2923778BA50086ECB2 /* TrainingLogAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingLogAppUITests.swift; sourceTree = "<group>"; };
+		C2129E2B23778BA50086ECB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2129E3D237792570086ECB2 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		C2C260DF237C09E700B59033 /* AlertUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertUIView.swift; sourceTree = "<group>"; };
+		C2D95723237A3E3F00845F61 /* CalenderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalenderViewController.swift; sourceTree = "<group>"; };
+		C2D95726237A3EBC00845F61 /* TrainingLogApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TrainingLogApp-Bridging-Header.h"; sourceTree = "<group>"; };
+		C2D95727237A3EBD00845F61 /* TrainingLogApp-Bridge-Header.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "TrainingLogApp-Bridge-Header.m"; sourceTree = "<group>"; };
+		C5074C8CFE5DBC52877364A7 /* Pods_TrainingLogApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TrainingLogApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC67290DB90E8ADFD762357E /* Pods_TrainingLogAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TrainingLogAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFAE683BABBBC187FFE9ADC0 /* Pods-TrainingLogAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrainingLogAppTests.debug.xcconfig"; path = "Target Support Files/Pods-TrainingLogAppTests/Pods-TrainingLogAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C2129E0123778B9F0086ECB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3BA61D3727320829AB19D1D /* Pods_TrainingLogApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2129E1723778BA50086ECB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8863DBAF30A04F9D710BCB12 /* Pods_TrainingLogAppTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2129E2223778BA50086ECB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B18CA12F3ED513A762C378B /* Pods_TrainingLogApp_TrainingLogAppUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		093F3A66973718E1D6E307B9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C5074C8CFE5DBC52877364A7 /* Pods_TrainingLogApp.framework */,
+				448E670512A98E21281621EB /* Pods_TrainingLogApp_TrainingLogAppUITests.framework */,
+				FC67290DB90E8ADFD762357E /* Pods_TrainingLogAppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C2129DFB23778B9F0086ECB2 = {
+			isa = PBXGroup;
+			children = (
+				C20920AB237A390200AD4AEE /* R.generated.swift */,
+				C2129E3D237792570086ECB2 /* .gitignore */,
+				C2129E0623778B9F0086ECB2 /* TrainingLogApp */,
+				C2129E1D23778BA50086ECB2 /* TrainingLogAppTests */,
+				C2129E2823778BA50086ECB2 /* TrainingLogAppUITests */,
+				C2129E0523778B9F0086ECB2 /* Products */,
+				FFD9689CE91059BA9B4872AE /* Pods */,
+				093F3A66973718E1D6E307B9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C2129E0523778B9F0086ECB2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C2129E0423778B9F0086ECB2 /* TrainingLogApp.app */,
+				C2129E1A23778BA50086ECB2 /* TrainingLogAppTests */,
+				C2129E2523778BA50086ECB2 /* TrainingLogAppUITests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C2129E0623778B9F0086ECB2 /* TrainingLogApp */ = {
+			isa = PBXGroup;
+			children = (
+				C2D95725237A3E9200845F61 /* BridgeHeader */,
+				C2129E39237790240086ECB2 /* Class */,
+				C2129E3B237790240086ECB2 /* Controller */,
+				C2129E38237790240086ECB2 /* Extension */,
+				C2129E3A237790240086ECB2 /* Model */,
+				C2129E3C237790250086ECB2 /* Resource */,
+				C2129E37237790240086ECB2 /* View */,
+				C2129E0723778B9F0086ECB2 /* AppDelegate.swift */,
+				C2129E1023778BA50086ECB2 /* Assets.xcassets */,
+				C2129E1523778BA50086ECB2 /* Info.plist */,
+				C2129E1223778BA50086ECB2 /* LaunchScreen.storyboard */,
+				C2129E0D23778B9F0086ECB2 /* Main.storyboard */,
+				C2129E0923778B9F0086ECB2 /* SceneDelegate.swift */,
+				C2129E0B23778B9F0086ECB2 /* ViewController.swift */,
+			);
+			path = TrainingLogApp;
+			sourceTree = "<group>";
+		};
+		C2129E1D23778BA50086ECB2 /* TrainingLogAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				C2129E1E23778BA50086ECB2 /* TrainingLogAppTests.swift */,
+				C2129E2023778BA50086ECB2 /* Info.plist */,
+			);
+			path = TrainingLogAppTests;
+			sourceTree = "<group>";
+		};
+		C2129E2823778BA50086ECB2 /* TrainingLogAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C2129E2923778BA50086ECB2 /* TrainingLogAppUITests.swift */,
+				C2129E2B23778BA50086ECB2 /* Info.plist */,
+			);
+			path = TrainingLogAppUITests;
+			sourceTree = "<group>";
+		};
+		C2129E37237790240086ECB2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C2129E38237790240086ECB2 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		C2129E39237790240086ECB2 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				C2C260DF237C09E700B59033 /* AlertUIView.swift */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		C2129E3A237790240086ECB2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C2129E3B237790240086ECB2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C2D95723237A3E3F00845F61 /* CalenderViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C2129E3C237790250086ECB2 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		C2D95725237A3E9200845F61 /* BridgeHeader */ = {
+			isa = PBXGroup;
+			children = (
+				C2D95727237A3EBD00845F61 /* TrainingLogApp-Bridge-Header.m */,
+				C2D95726237A3EBC00845F61 /* TrainingLogApp-Bridging-Header.h */,
+			);
+			path = BridgeHeader;
+			sourceTree = "<group>";
+		};
+		FFD9689CE91059BA9B4872AE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BE834F154CFE7AFF1BE09534 /* Pods-TrainingLogApp.debug.xcconfig */,
+				4A44E3BFC7A1D7835F445154 /* Pods-TrainingLogApp.release.xcconfig */,
+				68E90A4747AD60AF9D1D56B3 /* Pods-TrainingLogApp-TrainingLogAppUITests.debug.xcconfig */,
+				0B10FD2F66F6B5728A80B71F /* Pods-TrainingLogApp-TrainingLogAppUITests.release.xcconfig */,
+				FFAE683BABBBC187FFE9ADC0 /* Pods-TrainingLogAppTests.debug.xcconfig */,
+				B3745B093442E1C521FD2800 /* Pods-TrainingLogAppTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C2129E0323778B9F0086ECB2 /* TrainingLogApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2129E2E23778BA50086ECB2 /* Build configuration list for PBXNativeTarget "TrainingLogApp" */;
+			buildPhases = (
+				C16DB966248580146A86D8A8 /* [CP] Check Pods Manifest.lock */,
+				C23A6847237973E900F79A2A /* ShellScript */,
+				C2129E0023778B9F0086ECB2 /* Sources */,
+				C2129E0123778B9F0086ECB2 /* Frameworks */,
+				C2129E0223778B9F0086ECB2 /* Resources */,
+				FBBAC29837346F2D5317C083 /* [CP] Embed Pods Frameworks */,
+				C2F692F5237EF6B0005E2DB1 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TrainingLogApp;
+			productName = TrainingLogApp;
+			productReference = C2129E0423778B9F0086ECB2 /* TrainingLogApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C2129E1923778BA50086ECB2 /* TrainingLogAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2129E3123778BA50086ECB2 /* Build configuration list for PBXNativeTarget "TrainingLogAppTests" */;
+			buildPhases = (
+				0E52A08C1DBB64B87F99F3AF /* [CP] Check Pods Manifest.lock */,
+				C2129E1623778BA50086ECB2 /* Sources */,
+				C2129E1723778BA50086ECB2 /* Frameworks */,
+				C2129E1823778BA50086ECB2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C2129E1C23778BA50086ECB2 /* PBXTargetDependency */,
+			);
+			name = TrainingLogAppTests;
+			productName = TrainingLogAppTests;
+			productReference = C2129E1A23778BA50086ECB2 /* TrainingLogAppTests */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C2129E2423778BA50086ECB2 /* TrainingLogAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2129E3423778BA50086ECB2 /* Build configuration list for PBXNativeTarget "TrainingLogAppUITests" */;
+			buildPhases = (
+				32933C7DDCD8D46C986105B8 /* [CP] Check Pods Manifest.lock */,
+				C2129E2123778BA50086ECB2 /* Sources */,
+				C2129E2223778BA50086ECB2 /* Frameworks */,
+				C2129E2323778BA50086ECB2 /* Resources */,
+				CEEF82F730B0EF7DD0510C98 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C2129E2723778BA50086ECB2 /* PBXTargetDependency */,
+			);
+			name = TrainingLogAppUITests;
+			productName = TrainingLogAppUITests;
+			productReference = C2129E2523778BA50086ECB2 /* TrainingLogAppUITests */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C2129DFC23778B9F0086ECB2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = shooooori0128;
+				TargetAttributes = {
+					C2129E0323778B9F0086ECB2 = {
+						CreatedOnToolsVersion = 11.2;
+						LastSwiftMigration = 1120;
+					};
+					C2129E1923778BA50086ECB2 = {
+						CreatedOnToolsVersion = 11.2;
+						TestTargetID = C2129E0323778B9F0086ECB2;
+					};
+					C2129E2423778BA50086ECB2 = {
+						CreatedOnToolsVersion = 11.2;
+						TestTargetID = C2129E0323778B9F0086ECB2;
+					};
+				};
+			};
+			buildConfigurationList = C2129DFF23778B9F0086ECB2 /* Build configuration list for PBXProject "TrainingLogApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C2129DFB23778B9F0086ECB2;
+			productRefGroup = C2129E0523778B9F0086ECB2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C2129E0323778B9F0086ECB2 /* TrainingLogApp */,
+				C2129E1923778BA50086ECB2 /* TrainingLogAppTests */,
+				C2129E2423778BA50086ECB2 /* TrainingLogAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C2129E0223778B9F0086ECB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2129E3E237792570086ECB2 /* .gitignore in Resources */,
+				C2129E1423778BA50086ECB2 /* LaunchScreen.storyboard in Resources */,
+				C2129E1123778BA50086ECB2 /* Assets.xcassets in Resources */,
+				C2129E0F23778B9F0086ECB2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2129E1823778BA50086ECB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2129E2323778BA50086ECB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0E52A08C1DBB64B87F99F3AF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TrainingLogAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		32933C7DDCD8D46C986105B8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TrainingLogApp-TrainingLogAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C16DB966248580146A86D8A8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TrainingLogApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C23A6847237973E900F79A2A /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$TEMP_DIR/rswift-lastrun",
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				$SRCROOT/R.generated.swift,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n\"$PODS_ROOT/R.swift/rswift\" generate \"$SRCROOT/R.generated.swift\"\n";
+		};
+		CEEF82F730B0EF7DD0510C98 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TrainingLogApp-TrainingLogAppUITests/Pods-TrainingLogApp-TrainingLogAppUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TrainingLogApp-TrainingLogAppUITests/Pods-TrainingLogApp-TrainingLogAppUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TrainingLogApp-TrainingLogAppUITests/Pods-TrainingLogApp-TrainingLogAppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FBBAC29837346F2D5317C083 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TrainingLogApp/Pods-TrainingLogApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TrainingLogApp/Pods-TrainingLogApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TrainingLogApp/Pods-TrainingLogApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C2129E0023778B9F0086ECB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2C260E0237C09E700B59033 /* AlertUIView.swift in Sources */,
+				C2D95724237A3E3F00845F61 /* CalenderViewController.swift in Sources */,
+				C2129E0C23778B9F0086ECB2 /* ViewController.swift in Sources */,
+				C2D95728237A3EBD00845F61 /* TrainingLogApp-Bridge-Header.m in Sources */,
+				C2129E0823778B9F0086ECB2 /* AppDelegate.swift in Sources */,
+				C2129E0A23778B9F0086ECB2 /* SceneDelegate.swift in Sources */,
+				C20920AC237A390200AD4AEE /* R.generated.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2129E1623778BA50086ECB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2129E1F23778BA50086ECB2 /* TrainingLogAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2129E2123778BA50086ECB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2129E2A23778BA50086ECB2 /* TrainingLogAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C2129E1C23778BA50086ECB2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C2129E0323778B9F0086ECB2 /* TrainingLogApp */;
+			targetProxy = C2129E1B23778BA50086ECB2 /* PBXContainerItemProxy */;
+		};
+		C2129E2723778BA50086ECB2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C2129E0323778B9F0086ECB2 /* TrainingLogApp */;
+			targetProxy = C2129E2623778BA50086ECB2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C2129E0D23778B9F0086ECB2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C2129E0E23778B9F0086ECB2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C2129E1223778BA50086ECB2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C2129E1323778BA50086ECB2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C2129E2C23778BA50086ECB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C2129E2D23778BA50086ECB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C2129E2F23778BA50086ECB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE834F154CFE7AFF1BE09534 /* Pods-TrainingLogApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 64H4R55J6A;
+				INFOPLIST_FILE = TrainingLogApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shori0128.TrainingLogApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "TrainingLogApp/BridgeHeader/TrainingLogApp-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C2129E3023778BA50086ECB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A44E3BFC7A1D7835F445154 /* Pods-TrainingLogApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 64H4R55J6A;
+				INFOPLIST_FILE = TrainingLogApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shori0128.TrainingLogApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "TrainingLogApp/BridgeHeader/TrainingLogApp-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C2129E3223778BA50086ECB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FFAE683BABBBC187FFE9ADC0 /* Pods-TrainingLogAppTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 64H4R55J6A;
+				INFOPLIST_FILE = TrainingLogAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shori0128.TrainingLogAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TrainingLogApp.app/TrainingLogApp";
+			};
+			name = Debug;
+		};
+		C2129E3323778BA50086ECB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3745B093442E1C521FD2800 /* Pods-TrainingLogAppTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 64H4R55J6A;
+				INFOPLIST_FILE = TrainingLogAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shori0128.TrainingLogAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TrainingLogApp.app/TrainingLogApp";
+			};
+			name = Release;
+		};
+		C2129E3523778BA50086ECB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68E90A4747AD60AF9D1D56B3 /* Pods-TrainingLogApp-TrainingLogAppUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 64H4R55J6A;
+				INFOPLIST_FILE = TrainingLogAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shori0128.TrainingLogAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TrainingLogApp;
+			};
+			name = Debug;
+		};
+		C2129E3623778BA50086ECB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B10FD2F66F6B5728A80B71F /* Pods-TrainingLogApp-TrainingLogAppUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 64H4R55J6A;
+				INFOPLIST_FILE = TrainingLogAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shori0128.TrainingLogAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TrainingLogApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C2129DFF23778B9F0086ECB2 /* Build configuration list for PBXProject "TrainingLogApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2129E2C23778BA50086ECB2 /* Debug */,
+				C2129E2D23778BA50086ECB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2129E2E23778BA50086ECB2 /* Build configuration list for PBXNativeTarget "TrainingLogApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2129E2F23778BA50086ECB2 /* Debug */,
+				C2129E3023778BA50086ECB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2129E3123778BA50086ECB2 /* Build configuration list for PBXNativeTarget "TrainingLogAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2129E3223778BA50086ECB2 /* Debug */,
+				C2129E3323778BA50086ECB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2129E3423778BA50086ECB2 /* Build configuration list for PBXNativeTarget "TrainingLogAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2129E3523778BA50086ECB2 /* Debug */,
+				C2129E3623778BA50086ECB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C2129DFC23778B9F0086ECB2 /* Project object */;
+}
